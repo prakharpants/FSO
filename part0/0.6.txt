@@ -1,0 +1,10 @@
+title 0.6
+
+User->Server: Authentication Request
+Browser->Server:GET rquest (https://studies.cs.helsinki.fi/exampleapp/spa)
+Server->Browser: 200
+Browser->Server: POST request(new_note_spa)
+note left of Browser: Content-type header
+Server->Browser:201
+    
+
